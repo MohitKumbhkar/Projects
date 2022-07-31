@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+       <h1>Our Certificate & Online Programs For 2022</h1>
+
+    </section>
+
+    <!-- -------Blog page content----- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloremque dolorum voluptates doloribus rerum animi quo cumque eos nulla asperiores tempora, ipsam corrupti ducimus velit quis culpa laudantium nihil rem eveniet excepturi autem eius. Vero temporibus reprehenderit ratione libero tempore.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquam laudantium qui repellat iure fugiat? Delectus ad totam unde ea culpa? Minima suscipit non ipsam dolorum nulla! Excepturi perferendis porro itaque quia. Eveniet quae commodi in iste. Porro provident excepturi saepe incidunt esse nobis odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aliquam incidunt vel reiciendis ipsum, voluptatum necessitatibus cupiditate atque ratione voluptatem officiis quisquam tempora exercitationem eos.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, officia saepe. Beatae dicta doloribus maxime ipsum quaerat magnam iusto amet ducimus totam! Modi vitae rerum aut numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum modi quibusdam accusamus nihil nostrum in consequatur magnam fugiat, atque ipsa. pariatur porro adipisci quis aperiam unde neque impedit explicabo, consequuntur amet animi eum minima excepturi ipsa soluta dolorem. Nemo nulla odit corrupti saepe.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam laboriosam tempora temporibus eligendi iste reiciendis quia officiis fuga, dolores veritatis id totam unde est, atque exercitationem odit dolorum. Earum, suscipit.</p>
+
+               <div class="comment-box">
+                   <h3>Leave a comment</h3>
+
+                   <form  class="comment-form">
+                       <input type="text" placeholder="Enter Name">
+                       <input type="email" placeholder="Enter Email">
+                       <textarea  rows="5" placeholder="Your Comment"></textarea>
+                       <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                   </form>
+               </div> 
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>commerce</span>
+                    <span>30</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+ 
+<!-- ---------Footer-------- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut atque quod, recusandae distinctio hic commodi eius magnam  <br> nobis similique, iusto deserunt. Necessitatibus delectus blanditiis beatae</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By MOHIT KUMAR KUMBHKAR</p>
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- ---------JavaScript for Toggel Menu--------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
